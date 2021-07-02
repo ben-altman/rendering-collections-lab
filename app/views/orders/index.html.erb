@@ -6,6 +6,10 @@
     <th>Price
     <th>Customer</th>  
   </tr>
+
+
+<%= render(@orders) || "No Orders" %>
+<!--
   <% @orders.each do |order| %>
     <% order.products.each do |product| %>
       <tr>
@@ -16,4 +20,5 @@
       </tr>
     <% end %>
   <% end %>
+  -->
 </table>
